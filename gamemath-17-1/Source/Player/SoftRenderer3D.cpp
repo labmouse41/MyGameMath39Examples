@@ -205,18 +205,18 @@ void SoftRenderer::DrawMesh3D(const Mesh& InMesh, const Matrix4x4& InMatrix, con
 	{
 		vertices[vi].Position = Vector4(InMesh.GetVertices()[vi]);
 
-		if(InMesh.IsSkinnedMesh())
+		if (InMesh.IsSkinnedMesh())
 		{
 			Vector3 totalDeltaPosition;
 			Weight w = InMesh.GetWeights()[vi];
-			for (size_t wi = 0; wi < InMesh.GetConnectedBones()[vi]; wi++)
+			for (size_t wi = 0; wi < InMesh.GetConnectedBones()[vi]; ++wi)
 			{
 				std::string boneName = w.Bones[wi];
 				if (InMesh.HasBone(boneName))
 				{
 					const Transform& boneTransform = InMesh.GetBone(boneName).GetTransform();
 					Vector3 deltaPosition = boneTransform.GetPosition() - InMesh.GetBindPose(boneName).GetPosition();
-					totalDeltaPosition += deltaPosition * w.Values[vi];
+					totalDeltaPosition += deltaPosition * w.Values[wi];
 				}
 			}
 
