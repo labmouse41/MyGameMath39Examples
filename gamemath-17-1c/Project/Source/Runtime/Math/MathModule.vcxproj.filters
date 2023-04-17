@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Precompiled.cpp" />
+    <ClCompile Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Private\Box.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Private\Circle.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Private\Color32.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Private\Frustum.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Private\LinearColor.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Private\Math.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Private\Matrix2x2.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Private\Matrix3x3.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Private\Matrix4x4.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Private\Plane.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Private\Quaternion.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Private\Rectangle.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Private\Rotator.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Private\Sphere.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Private\Transform.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Private\Vector2.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Private\Vector3.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Private\Vector4.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Precompiled.h" />
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\Box.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\Circle.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\Color32.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\CoreDefinition.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\Frustum.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\HSVColor.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\LinearColor.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\MathHeaders.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\MathUtil.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\Matrix2x2.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\Matrix3x3.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\Matrix4x4.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\Plane.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\Platform.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\Quaternion.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\Rectangle.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\Rotator.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\ScreenPoint.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\Sphere.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\Transform.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\Vector2.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\Vector3.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\Vector4.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-17-1c\Source\Runtime\Math\Public\Windows\WindowsPlatform.h">
+      <Filter>Public\Windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Private">
+      <UniqueIdentifier>{5904D809-0C1C-379A-B91C-10F752ED758B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public">
+      <UniqueIdentifier>{EFC3125D-94F7-33DC-8F7C-0CD1B74510FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public\Windows">
+      <UniqueIdentifier>{727C2DA6-11F1-363D-89F1-EA928B78EAD4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
